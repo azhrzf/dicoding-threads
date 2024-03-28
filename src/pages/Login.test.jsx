@@ -23,7 +23,7 @@ describe('Login component', () => {
     )
     const emailInput = document.getElementById('email')
     await userEvent.type(emailInput, 'email@email.com')
-    expect(emailInput).toHaveValue('email@email.com')
+    expect(emailInput).toHaveValue('emailz@email.com')
   })
 })
 
