@@ -29,5 +29,5 @@ module.exports = {
       version: 'detect'
     }
   },
-  ignorePatterns: ['*cy.js']
+  ignorePatterns: ['*cy.js', 'cypress/']
 }
